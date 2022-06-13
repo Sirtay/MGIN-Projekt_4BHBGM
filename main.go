@@ -14,7 +14,7 @@ func main() {
 	fmt.Scanln(&first)
 	fmt.Print("Geben Sie Ihr Alter ein: ")
 
-	// var then variable name then variable type
+	// var then variable name then variable
 	var alter float32
 
 	// Taking input from user
