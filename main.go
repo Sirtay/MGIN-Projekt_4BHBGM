@@ -3,28 +3,25 @@ package main
 import "fmt"
 
 func main() {
-	// Println function is used to
-	// display output in the next line
+	
+	fmt.Println("Kalorienumsatz Rechner von Mandic & Singh, Lab 7 Finales Projekt")
 	fmt.Print("Geben Sie Ihr Gewicht ein: ")
 
-	// var then variable name then variable type
 	var first float32
 
-	// Taking input from user
+
 	fmt.Scanln(&first)
 	fmt.Print("Geben Sie Ihr Alter ein: ")
 
-	// var then variable name then variable
 	var alter float32
 
-	// Taking input from user
+
 	fmt.Scanln(&alter)
 	fmt.Print("Geben Sie Ihre Körpergröße ein (in cm): ")
 
-	// var then variable name then variable type
 	var groeße float32
 
-	// Taking input from user
+
 	fmt.Scanln(&groeße)
 	fmt.Print("Wie Aktiv sind sie von 1-10: ")
 
