@@ -34,11 +34,11 @@ func main() {
 
 	//Berechnungen
 
-	if aktivitätsgrad<= 10 && aktivitätsgrad>= 1 && alter >= 16 && alter <= 100 && first >= 30 && groesse <= 250 && groesse >= 100 {
+	if aktivitätsgrad<= 10 && aktivitätsgrad>= 1 && alter >= 16 && alter <= 100 && gewicht>= 30 && groesse <= 250 && groesse >= 100 {
 
 		aktivität = aktivitätsgrad
 
-		var formel1 float32 = 655 + ((9.6 * gewicht + (1.8 * groeße) - (4.7 * alter))
+		var formel1 float32 = 655 + ((9.6 * gewicht + (1.8 * groesse) - (4.7 * alter)))
 		var formel2 float32 = aktivität * 200
 		var formel3 float32 = formel1 + formel2
 		fmt.Println("")
