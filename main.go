@@ -5,6 +5,9 @@ import "fmt"
 func main() {
 	
 	fmt.Println("Kalorienumsatz Rechner von Mandic & Singh, Lab 7 Finales Projekt")
+
+	//Benutzereingaben
+	
 	fmt.Print("Geben Sie Ihr Gewicht ein: ")
 
 	var gewicht float32
@@ -28,6 +31,8 @@ func main() {
 	var aktivitätsgrad float32
 	var aktivität float32
 	fmt.Scanln(&aktivitätsgrad)
+
+	//Berechnungen
 
 	if aktivitätsgrad<= 10 && aktivitätsgrad>= 1 && alter >= 16 && alter <= 100 && first >= 30 && groeße <= 250 && groeße >= 100 {
 
