@@ -51,7 +51,9 @@ func main() {
 
 	} else {
 
-		fmt.Println("Bitte Eingabe beachten! ")
+		fmt.Println("Bitte Eingabe beachten!. ")
+
+
 
 	}
 
