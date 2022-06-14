@@ -34,7 +34,7 @@ func main() {
 
 	//Berechnungen
 
-	if aktivitätsgrad<= 10 && aktivitätsgrad>= 1 && alter >= 16 && alter <= 100 && first >= 30 && groeße <= 250 && groeße >= 100 {
+	if aktivitätsgrad<= 10 && aktivitätsgrad>= 1 && alter >= 16 && alter <= 100 && first >= 30 && groesse <= 250 && groesse >= 100 {
 
 		aktivität = aktivitätsgrad
 
